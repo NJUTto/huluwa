@@ -68,9 +68,9 @@ Java Final Homework
 ![image text](https://github.com/NJUTto/huluwa/blob/master/runpics/1.jpg)
 选择阵型：<br>
 ![image text](https://github.com/NJUTto/huluwa/blob/master/runpics/2.jpg)
-开始战斗：
+开始战斗：<br>
 ![image text](https://github.com/NJUTto/huluwa/blob/master/runpics/3.jpg)
-战斗结束：
+战斗结束：<br>
 ![image text](https://github.com/NJUTto/huluwa/blob/master/runpics/1.jpg)
-复盘文件：
+复盘文件：<br>
 ![image text](https://github.com/NJUTto/huluwa/blob/master/runpics/file.png)
