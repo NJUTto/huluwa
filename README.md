@@ -64,13 +64,13 @@ Java Final Homework
 
 三、实现效果
 ----------
-以长蛇，鹤翼，鱼鳞，锋矢这四个阵型为例：<br>
-初始化，葫芦娃进入战场：<br>
-![image text](https://github.com/NJUTto/java-2018f-homework/blob/master/20180925/童成伟-161220120/1.png)
-妖怪们进入战场：<br>
-![image text](https://github.com/NJUTto/java-2018f-homework/blob/master/20180925/童成伟-161220120/2.png)
-葫芦兄弟重排，妖怪变阵：
-![image text](https://github.com/NJUTto/java-2018f-homework/blob/master/20180925/童成伟-161220120/3.png)
-妖怪再次变阵：
-![image text](https://github.com/NJUTto/java-2018f-homework/blob/master/20180925/童成伟-161220120/4.png)
-
+初始化，显示图形框架，开始播放BGM<br>
+![image text](https://github.com/NJUTto/huluwa/blob/master/runpics/1.jpg)
+选择阵型：<br>
+![image text](https://github.com/NJUTto/huluwa/blob/master/runpics/2.jpg)
+开始战斗：
+![image text](https://github.com/NJUTto/huluwa/blob/master/runpics/3.jpg)
+战斗结束：
+![image text](https://github.com/NJUTto/huluwa/blob/master/runpics/1.jpg)
+复盘文件：
+![image text](https://github.com/NJUTto/huluwa/blob/master/runpics/file.png)
