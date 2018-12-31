@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane fx:id="mainBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#OnKeyPress" prefHeight="800.0" prefWidth="1200.0" stylesheets="/battle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlbattle">
+    <center>
+        <Canvas id="mainCanvas" fx:id="mainCanvas" height="600.0" width="675.0" BorderPane.alignment="CENTER" />
+   </center>
+   <right>
+      <VBox prefHeight="775.0" prefWidth="175.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="startButton" mnemonicParsing="false" onAction="#startGame" prefHeight="35.0" prefWidth="175.0" text="开始游戏">
+                <VBox.margin>
+                    <Insets bottom="50.0" top="5.0" />
+                </VBox.margin>
+            </Button>
+            <Button fx:id="replayButton" mnemonicParsing="false" onAction="#replayGame" prefHeight="35.0" prefWidth="175.0" text="复盘">
+                <VBox.margin>
+                    <Insets bottom="50.0" top="5.0" />
+                </VBox.margin>
+            </Button>
+             <Button fx:id="stopButton" mnemonicParsing="false" onAction="#stopGame" prefHeight="35.0" prefWidth="175.0" text="暂停">
+                 <VBox.margin>
+                     <Insets bottom="50.0" top="5.0" />
+                 </VBox.margin>
+             </Button>
+            <MenuBar prefHeight="25.0" prefWidth="175.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="葫芦娃阵型">
+                  <items>
+                      <MenuItem mnemonicParsing="false" onAction="#leftCS" text="长蛇" />
+                      <MenuItem mnemonicParsing="false" onAction="#leftYX" text="雁行" />
+                      <MenuItem mnemonicParsing="false" onAction="#leftHY" text="鹤翼" />
+                      <MenuItem mnemonicParsing="false" onAction="#leftFS" text="锋矢" />
+                      <MenuItem mnemonicParsing="false" onAction="#leftFM" text="方门" />
+                      <MenuItem mnemonicParsing="false" onAction="#leftHE" text="衡轭" />
+                      <MenuItem mnemonicParsing="false" onAction="#leftYL" text="鱼鳞" />
+                      <MenuItem mnemonicParsing="false" onAction="#leftYY" text="偃月" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="妖精阵型">
+                  <items>
+                      <MenuItem mnemonicParsing="false" onAction="#rightCS" text="长蛇" />
+                      <MenuItem mnemonicParsing="false" onAction="#rightYX" text="雁行" />
+                      <MenuItem mnemonicParsing="false" onAction="#rightHY" text="鹤翼" />
+                      <MenuItem mnemonicParsing="false" onAction="#rightFS" text="锋矢" />
+                      <MenuItem mnemonicParsing="false" onAction="#rightFM" text="方门" />
+                      <MenuItem mnemonicParsing="false" onAction="#rightHE" text="衡轭" />
+                      <MenuItem mnemonicParsing="false" onAction="#rightYL" text="鱼鳞" />
+                      <MenuItem mnemonicParsing="false" onAction="#rightYY" text="偃月" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>
