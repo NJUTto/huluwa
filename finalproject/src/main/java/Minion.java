@@ -1,6 +1,5 @@
 import javafx.scene.image.Image;
 
-import java.net.URL;
 import java.util.Random;
 
 public class Minion extends Creature implements Runnable{

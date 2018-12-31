@@ -5,7 +5,7 @@ public class CalabashBro extends Creature implements Runnable {
 
     private int rank;
 
-    String[] calapics = {"pics/1.jpg","pics/2.jpg","pics/3.jpg","pics/3.jpg","pics/4.jpg","pics/5.jpg","pics/6.jpg","pics/7.jpg"};
+    String[] calapics = {"pics/1.jpg", "pics/2.jpg", "pics/3.jpg", "pics/3.jpg", "pics/4.jpg", "pics/5.jpg", "pics/6.jpg", "pics/7.jpg"};
 
 
     public CalabashBro(CalaName name){

@@ -12,7 +12,6 @@ public class Player implements Runnable {
     private URL path;
 
     private boolean run = true;
-    //private boolean initplayer;
     private boolean end = false;
 
     public Player(){

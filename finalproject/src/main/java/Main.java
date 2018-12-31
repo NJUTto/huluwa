@@ -4,12 +4,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.scene.media.AudioClip;
 import javafx.stage.WindowEvent;
-
-import java.awt.*;
-import java.io.File;
-import java.net.URL;
 
 public class Main extends Application {
     //private final Dimension SCREENDIMENSION = Toolkit.getDefaultToolkit().getScreenSize();
