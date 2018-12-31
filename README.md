@@ -1,5 +1,8 @@
 # MyCalabash
 Java Final Homework
+# 问题说明！！！！！！
+在对一次项目的资源文件修改中出现了未知问题，导致项目可能无法启动
+如果出现这个问题，请您对finalproject.iml中的 <sourceFolder url="file://$MODULE_DIR$/src/main/resource" type="java-resource" />这一句进行重新设置，即删除运行一次（失败），再重新添加这一句即可正常运行(为什么会有这个问题我也十分费解！）
 
 ## 框架
 采用Maven对项目进行管理。用于展示的战场为16 * 18的二维空间。<br>
